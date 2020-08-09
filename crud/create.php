@@ -25,4 +25,3 @@ if(isset($_POST['submit'])){
     <button type="submit" name="submit">Submit</button>
 </form>
 <a href="index.php">back</a>
-<h1>Test revert commit</h1>
