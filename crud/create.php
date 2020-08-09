@@ -24,4 +24,8 @@ if(isset($_POST['submit'])){
     <input type="email" name="email" required><br>
     <button type="submit" name="submit">Submit</button>
 </form>
+
+
 <a href="index.php">back</a>
+<h1>Test pull nahnh khac</h1>
+
