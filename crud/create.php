@@ -25,3 +25,13 @@ if(isset($_POST['submit'])){
     <button type="submit" name="submit">Submit</button>
 </form>
 <a href="index.php">back</a>
+<form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
+    <p>First name</p>
+    <input type="text" name="firstname" required>
+    <p>Last name</p>
+    <input type="text" name="lastname" required>
+    <p>Email</p>
+    <input type="email" name="email" required><br>
+    <button type="submit" name="submit">Submit</button>
+</form>
+<a href="index.php">back</a>
